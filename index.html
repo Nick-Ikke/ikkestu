@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1c1a16"/>
+    <meta name="description" content="IKKE Studio's portfolio — full-stack designer & front-end developer specializing in UI/UX, web design, and creative digital experiences. View selected work and contact." />
+    <meta property="og:title" content="IKKE Studios | Designer & Developer">
+    <meta property="og:description" content="Full-stack designer & front-end developer portfolio. Selected work, UI/UX, and contact information.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://Nick-Ikke.github.io/portfolio/preview.jpg"> <!--update this URL of the image-->
+    <meta property="og:url" content="https://ikkestu.vercel.app/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IKKE Studios | Designer & Developer">
+    <meta name="twitter:description" content="Full-stack designer & front-end developer portfolio showcasing selected work.">
+    <meta name="twitter:image" content="https://Nick-Ikke.github.io/portfolio/preview.jpg"> <!--update this URL of the image-->
+
+    <title>IKKE Studios</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    
+</head>
+<body>
+
+    <main>
+        <header>
+            <div class="header-container">
+
+                <a href="/" class="logo"></a>
+
+                <nav id="primary-nav" aria-label="Primary navigation">
+                <ul>
+                    <li class="workBtn-container"><a href="#work" class="work-btn">Skills</a></li>
+                    <li class="contactBtn-container"><a href="#contact" class="contact-btn">Hi!</a></li>
+                </ul>
+                </nav>
+
+            </div>
+        </header>
+        <section id="content">
+            <section id="hero"></section>
+            <section id="work"></section>
+        </section>
+        <section id="contact">
+            <canvas id="starfield" aria-hidden="true"></canvas>
+        </section>
+    </main>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
