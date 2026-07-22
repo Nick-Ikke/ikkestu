@@ -82,7 +82,7 @@ header {
   top: 0;
   width: 100%;
   height: 12vh;
-  background-image: linear-gradient(to bottom, var(--black), #13110f79);
+  background-image: linear-gradient(to bottom, var(--black), #13110f02);
   z-index: var(--z-header);
   display: flex;
   align-items: center;
